@@ -1,4 +1,4 @@
-const encode = (string) => {
+function encode (string) {
 return btoa(string)
 }
 

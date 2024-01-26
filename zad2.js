@@ -1,3 +1,4 @@
+function getPassword(){
 const lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
 const uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const numbers = '0123456789';
@@ -28,6 +29,7 @@ for (let i = 0; i < passwordArray.length; i++){
     [passwordArray[i], passwordArray[j]] = [passwordArray[j], passwordArray[i]];
 }
 
-const finalPassword = passwordArray.join('')
+return finalPassword = passwordArray.join('')
+}
 
-console.log(finalPassword)
+console.log(getPassword)
